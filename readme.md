@@ -27,23 +27,6 @@ This will launch the Python 2 interpreter, WHICH WE DON't NEED.
 This will launch the Python 3 interpreter. WE NEED THIS ONE.
 
 
-#### pip and pip3 installation
-
-Except for python3 you will need to install ```pip3```, so first and foremost we must check whether it is already installed. Open terminal and type: 
-```pip3 -V```
-
-2 outcomes are possible:
- 
- -> Either there will be pip3 installed and terminal will tell you the version ( something like: pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6) )
- 
- -> Or there will be no pip3 installed and terminal will write something like: pip3 command not found
-
-If there is no pip3 installed, do following:
-
-Run the following command from a terminal:
-```sudo apt-get install python3-pip```
-
-Done.
 
 ## numpy and sympy installation
 
