@@ -8,6 +8,3 @@ class Encoder:
         rs_enc=RSPrimeFieldEncoder(rs_trial)
         rs_enc.encode()
 
-    def apply_RS_Extension_Encoder(self, rs_trial):
-        rs_enc=RSExtensionFieldEncoder(rs_trial)
-        rs_enc.encode()
