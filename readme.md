@@ -1,6 +1,6 @@
-# GCC RS- encoder/ and decoder on python
+# RS- encoder/ and decoder on python
 
-This is github repo for Generalized Concatenated Codes API development. 
+This is github repo for RS codes API. Documentation and description of API is provided in documentation.pdf document. 
 
 ## Getting Started
 
