@@ -56,7 +56,7 @@ Run the following command from a terminal in order to install ```sympy```:
 Done.
 
 ## Running example with teabag API
-In order to execute the transmission first instantiate the field, using ```ExtensionField``` or ```PrimeField```. Example:
+In order to execute the transmission first instantiate the field, using ```ExtensionField```(only for Stuttgart University) or ```PrimeField```. Example:
 
 ```
 from common.prime_field import prime_field
