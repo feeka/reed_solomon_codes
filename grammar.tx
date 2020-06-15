@@ -1,0 +1,29 @@
+Model:
+    commands*=ECCCommand | Report
+;
+ECCCommand:
+    TrialCreate | Encode | Decode | Distort
+;
+Report:
+  '{ report }'
+;
+
+TrialCreate:
+    'create Trial' ID 'where{'
+        'message = ' message+=INT[',']
+        'field = ' field=INT
+        'locators = ' locators+=INT[',']
+        'multipliers = ' multipliers+=INT[',']
+        'k = ' k=INT
+        'n = ' n=INT'}'
+;
+
+Encode:
+  'encode'
+;
+Distort:
+  'distort'
+;
+Decode:
+  'decode'
+;

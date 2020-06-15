@@ -1,2 +1,2 @@
 language = "bash"
-run = "python3 demo.py"
+run = "pip3 install sympy textx numpy \n python3 dsl_logic.py"
