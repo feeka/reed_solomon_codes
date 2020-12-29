@@ -1,6 +1,6 @@
 # RS- encoder/ and decoder on python
 
-This is github repo for RS codes API. Documentation and description of API is provided in documentation.pdf document. 
+This is github repo for RS codes API. Documentation and description of API is provided in documentation.pdf document. Additional info on RS codes: @here[http://jeffareid.net/misc/msc-21834.pdf].
 
 ## Getting Started
 
